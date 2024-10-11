@@ -17,9 +17,6 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v3
 
-      # If you need to build the site (e.g., using a static site generator), add build steps here.
-      # For a simple static site, you can skip to the deploy step.
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
