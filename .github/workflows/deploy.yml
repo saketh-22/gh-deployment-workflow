@@ -6,7 +6,7 @@ on:
   # Triggers the workflow on push for the "main" branch and only when index.html is changed
   push:
     branches: [ "main" ]
-    paths: ["index.html"]
+    # paths: ["index.html"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
