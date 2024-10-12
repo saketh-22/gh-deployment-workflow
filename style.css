@@ -8,7 +8,20 @@ h1 {
 .project {
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #b82020;
+    border: 2px solid #b82020;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project:hover {
+  /* Change the border color on hover */
+  border-color: #4CAF50; /* A green color for hover effect */
+
+  /* Change the box shadow on hover */
+  --box-shadow-hover: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow-hover);
+
+  /* Add a transform effect to give a sense of depth */
+  transform: translateY(-5px);
 }
