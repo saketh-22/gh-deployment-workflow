@@ -16,7 +16,7 @@ h1 {
 
 .project:hover {
   /* Change the border color on hover */
-  border-color: #4CAF50; /* A green color for hover effect */
+  border-color: #112cc7; /* A green color for hover effect */
 
   /* Change the box shadow on hover */
   --box-shadow-hover: 0 0 20px rgba(0, 0, 0, 0.2);
